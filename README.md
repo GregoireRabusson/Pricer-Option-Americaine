@@ -2,7 +2,7 @@
 
 Ce projet a été fait en collaboration avec Julien Bensoussan, en 3ème année de l'ENSIMAG, à la suite d'un cours présenté par Mr Jerome Lelong
 
-Ce projet propose une implémentation de l'algorithme de Longstaff-Schwartz permettant de pricer différents types d'option américaine. 
+Ce projet propose une implémentation de l'algorithme de Longstaff-Schwartz permettant de pricer différents types d'option américaines. 
 
 Ce projet nécessite la librairie PNL accéssible gratuitement sur internet. 
 
@@ -15,7 +15,7 @@ Entrer les commandes :
 - cmake -DCMAKE_PREFIX_PATH=/Path/to/pnl/build/ ..
 - make 
 
-Différent option peuvent être pricées à partir de fichier du répertoire dat.
+Différentes options peuvent être pricées à partir des fichiers du répertoire dat.
 
 Entrer depuis le répertoire build : 
 - ./mc-exemple ../dat/fichier.txt
